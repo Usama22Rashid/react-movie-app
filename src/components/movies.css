@@ -1,0 +1,15 @@
+.movies {
+    background-color: rgb(219, 214, 214);
+    color: black;
+    border: 1px solid grey;
+    padding: 4px;
+    font-weight: bold;
+    text-align: center;
+    width: 20%;
+    margin-top: 13px;
+}
+
+.movies img {
+    height: 220px;
+    width: fit-content;
+}
