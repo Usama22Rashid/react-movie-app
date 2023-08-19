@@ -9,9 +9,10 @@ function App() {
       <Header />
       <div className="main">
         {/* here we use js map function for data.json */}
-        {movies.map((element) => {
+        {movies.map((element, index) => {
           return (
             <Movies
+              key={index}
               title={element.Title}
               year={element.Year}
               img={element.Poster}
